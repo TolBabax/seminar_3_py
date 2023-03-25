@@ -13,7 +13,7 @@ number_list = [10, 5, 7, 3, 3, 0, 5, 7, 2, 8]
 number_x = int(input('Введите число Х: '))
 max_number = 0
 for index in range(len(number_list)):
-           if number_list[index] == number_x:
+        if number_list[index] == number_x:
             max_number = max_number + 1
 # if max_number > 0:
 #       print(max_number)
